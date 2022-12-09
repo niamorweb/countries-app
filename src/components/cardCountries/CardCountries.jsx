@@ -9,7 +9,7 @@ export default function CardCountries( { country}) {
 
 
   return (
-    <Link className='links' to={'/country/' + country.name.common}>
+    <Link className='links' to={'/countries-app/country/' + country.name.common}>
      <div className="card">
         <img src={country.flags.svg} alt="" />
         <div className="infos">

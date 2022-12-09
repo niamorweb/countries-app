@@ -19,7 +19,7 @@ export default function SpecificCountry( {dataCountries}) {
 
     <div className='container-specific-country'>
 
-    <Link className='links' to={'/'} ><button className="btn-back-page"> 
+    <Link className='links' to={'/countries-app/'} ><button className="btn-back-page"> 
     <img className='dark-mode-element' src="../assets/img/arrow-right-white.svg" alt="" />
     <img className='light-mode-element' src="../assets/img/arrow-right.svg" alt="" />
     <span>Back</span>
