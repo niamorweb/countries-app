@@ -27,13 +27,13 @@ function App() {
     <Routes>
         
       
-      <Route path='/' 
+      <Route path='countries-app/' 
       element={<Home dataCountries={dataCountries}/>}/>
       
-      <Route path='/country/:countryname' 
+      <Route path='countries-app/country/:countryname' 
       element={<SpecificCountry dataCountries={dataCountries} />}/>
 
-    <Route path='/*' />
+    <Route path='countries-app/*' />
     </Routes>
     
     </BrowserRouter> 
