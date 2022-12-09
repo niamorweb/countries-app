@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
       <div className="container-header">
-       <Link className='links' to={'/'}> <h2>Niamor Industry</h2></Link>
+       <Link className='links' to={'/countries-app/'}> <h2>Niamor Industry</h2></Link>
         <DarkLightMode />
         </div>
     </header>
