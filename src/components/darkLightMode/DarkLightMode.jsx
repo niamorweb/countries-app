@@ -35,8 +35,8 @@ export default function DarkLightMode() {
 
     return(
         <div onClick={toggleTheme} className="dark-light-theme">
-            <img className='dark-mode-element' src="../my-portfolio/assets/img/moon-dark-mode-white.svg" alt="" />
-            <img className='light-mode-element' src="../my-portfolio/assets/img/moon-dark-mode.svg" alt="" />
+            <img className='dark-mode-element' src="../countries-app/assets/img/moon-dark-mode-white.svg" alt="" />
+            <img className='light-mode-element' src="../countries-app/assets/img/moon-dark-mode.svg" alt="" />
             <span>Dark Mode</span>
         </div>
     )
