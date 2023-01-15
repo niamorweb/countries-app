@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
       <div className="container-header">
-       <Link className='links' to={'/countries-app/'}> <h2>Niamor</h2></Link>
+       <Link className='links' to={'/countries-app/'}> <h2>Where in the world ?</h2></Link>
         <DarkLightMode />
         </div>
     </header>
