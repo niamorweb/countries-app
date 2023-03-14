@@ -60,14 +60,15 @@ header {
   width: 100vw;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.109);
   background-color: var(--elements);
+  padding: 0 0.8rem;
 }
 header .container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto 40px auto;
-  padding: 2rem 0.8rem;
-  max-width: 1200px;
+  padding: 2rem 0;
+  max-width: 1400px;
 }
 header .container-header h2 {
   font-size: 1.3rem;
@@ -105,6 +106,9 @@ header h4 {
   width: 250px;
   margin: auto;
 }
+.card:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+}
 .card h2 {
   font-size: 1rem;
 }
@@ -133,6 +137,10 @@ header h4 {
 .countries {
   padding: 20px;
 }
+.countries .countries__container {
+  max-width: 1400px;
+  margin: auto;
+}
 .countries #countries-main {
   margin: auto;
   display: flex;
@@ -157,6 +165,8 @@ header h4 {
   flex-direction: column;
 }
 .countries .radio-container .div-selectors #selector-region {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.141);
+  border-radius: 3px;
   border: none;
   padding: 14px;
   cursor: pointer;
@@ -164,6 +174,8 @@ header h4 {
   font-size: 1rem;
 }
 .countries .radio-container .div-selectors #selector-sort {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.141);
+  border-radius: 3px;
   border: none;
   padding: 14px;
   cursor: pointer;
@@ -219,7 +231,7 @@ header h4 {
   .countries .radio-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
   .countries .radio-container #search-country {
     width: 400px;
@@ -304,6 +316,8 @@ header h4 {
   padding: 0.3rem 1.2rem;
   font-size: 1rem;
   min-width: 4rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.109);
+  border-radius: 3px;
 }
 
 @media screen and (min-width: 640px) {

@@ -2,47 +2,44 @@ header {
   width: 100vw;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.109);
   background-color: var(--elements);
+  padding: 0 0.8rem;
 
-  .container-header{
+  .container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto 40px auto;
-    padding: 2rem .8rem;
-    max-width: 1200px;
+    padding: 2rem 0;
+    max-width: 1400px;
 
-    h2{
+    h2 {
       font-size: 1.3rem;
     }
-}
+  }
 
-  .dark-light-theme{
+  .dark-light-theme {
     cursor: pointer;
     display: flex;
     gap: 10px;
     align-items: center;
 
-    img{
+    img {
       width: 30px;
     }
   }
   h4 {
     cursor: pointer;
   }
-
-
 }
 
-
-@media (min-width:550px) {
+@media (min-width: 550px) {
   header {
-    .container-header{
+    .container-header {
       padding: 2rem 3rem;
 
-      h2{
+      h2 {
         font-size: 2rem;
       }
-
+    }
   }
-}
 }

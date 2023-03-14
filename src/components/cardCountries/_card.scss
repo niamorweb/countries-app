@@ -4,19 +4,21 @@
   margin: 10px 10px;
   display: flex;
   flex-direction: column;
-  border-radius:7px;
+  border-radius: 7px;
   overflow: hidden;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.109);
   width: 250px;
   margin: auto;
 
+  &:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+  }
 
   h2 {
     font-size: 1rem;
   }
 
-
-  .details-card-list{
+  .details-card-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -24,7 +26,7 @@
 
   .infos {
     padding: 20px 20px 30px 20px;
-    background-color:var(--elements);
+    background-color: var(--elements);
     height: 100%;
     width: 100%;
     text-align: left;
@@ -36,5 +38,5 @@
     height: 150px;
     width: 250px;
     object-fit: cover;
-}
+  }
 }
